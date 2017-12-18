@@ -1,3 +1,4 @@
+# Forked from linuxserver/docker-freshrss
 [linuxserverurl]: https://linuxserver.io
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
@@ -74,6 +75,7 @@ Create a user and database in your mysql/mariadb server (not root) and then foll
 
 ## Versions
 
++ **18.12.17:** Fix FreshRSS API issue (https://github.com/FreshRSS/FreshRSS/issues/1579#issuecomment-308361484)
 + **25.05.17:** Rebase to alpine linux 3.6
 + **23.02.17:** Rebase to alpine linux 3.5 and nginx.
 + **14.10.16:** Add version layer information.
